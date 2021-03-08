@@ -10,33 +10,33 @@
 	<section id="html-forms" class="main-section"> 
 <form action="somepage.php" method="get">
 	<div id="fn container" class="form-elm">
-	<label for="FirstNameId">First name</label>
+	<label for="FirstNameId">First Name:</label>
 	<input type="text" name="FirstName" id="FirstNameId" placeholder="First name goes here">
 </div>
 <div id="ln-container" class="form-elm">
-	<label for="LastName">Last Name</label>	
+	<label for="LastName">Last Name:</label>	
 	<input type="text" name="LastName" id="LastName" placeholder="Last name goes here">
 </div>
 <div id="email-container" class="form-elm">
-	<label for="email">Email</label>
+	<label for="email">Email:</label>
 	<input type="email" name="email" id="email" value="example@g.com" readonly>
 </div>
 <div id="pass-container" class="form-elm">
-	<label for="pass">Password</label>
+	<label for="pass">Password:</label>
 	<input type="password" name="pass" id="pass" required>
 </div>
 <div id="sum-container" class="form-elm">
-<label for="IntroductoryText">Introductorytext</label>
+<label for="IntroductoryText">Introductory Text:</label>
 <textarea name="IntroductoryText" id="IntroductoryText" placeholder="Enter text here"></textarea>
 </div>
 <div id="st-container" class="form-elm">
-	<label for="date">Date of Birth</label>
+	<label for="date">Date of Birth:</label>
 	<input type="date" name="date" id="date"><br>
 
 	<label for="ur">Website:</label>
 	<input type="url" name="ur" id="ur"><br>
 	<label for="phone">Mobile Number:</label>
-	<input type="tel" name="phone" id="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+	<input type="tel" name="phone" id="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
 	 <input type="radio" id="male" name="gender" value="male">
 	 <label for="gender">Gender:</label><br>
   <label for="male">Male</label><br>
@@ -47,22 +47,30 @@
 </div>
 <div id="ln-container" class="form-elm">
 	<label for="address">Address:</label>
-	<input type="text" name="Address" id="Address" placeholder="Enter Address here">
-	<label for="Postalcode">Postal Code</label>
-	<input type="text" name="Postalcode" id="Postalcode" placeholder="Enter Postalcode here">
+	<input type="text" name="Address" id="Address" placeholder="Enter Address here"><br>
+	<label for="Postalcode">Postal Code:</label>
+	<input type="text" name="Postalcode" id="Postalcode" placeholder="Enter Postalcode here"><br>
 </div>
 <div id="drop-container" class="form-elm">
 	<label for="Province">Province:</label>
 	<select name="Province" id="Province">
 		<option value="Ontario">Ontario</option>
 		<option value="Quebec">Quebec</option>
-	</select>
+	</select><br>
 	<label for="Country">Country:</label>
 	<select name="Country" id="Country">
 		<option value="Canada">Canada</option>
 		<option value="UnitedStates">United States</option>
-	</select>
+	</select><br>
 </div>
-
+<div id="checkbox" class="form-elm">
+	<label for="Hobbies/Interests">Hobbies/Interests:</label><br>
+	<label for="Reading">Reading:</label>
+	<input type="checkbox" name="Reading" id="Reading" value="Reading"> <br>
+	<label for="Swimming">Swimming:</label>
+	<input type="checkbox" name="Swimming" id="Swimming" value="Swimming"> <br>
+</div>
+<input type="submit"><br>
+<input type="reset">
 </body>
 </html>
