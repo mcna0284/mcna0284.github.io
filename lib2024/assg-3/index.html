@@ -9,9 +9,35 @@
 	<div id="wrapper" class="wrapper">
 	<section id="html-forms" class="main-section"> 
 <form action="somepage.php" method="get">
-	<label for="FirstName">First name</label>
-	<input type="text" name="FirstName" id="FirstName" placeholder="First name goes here">
+	<div id="fn container" class="form-elm">
+	<label for="FirstNameId">First name</label>
+	<input type="text" name="FirstName" id="FirstNameId" placeholder="First name goes here">
 </div>
-<div></div>
+<div id="ln-container" class="form-elm">
+	<label for="LastName">Last Name</label>	
+	<input type="text" name="LastName" id="LastName" placeholder="Last name goes here">
+</div>
+<div id="email-container" class="form-elm">
+	<label for="email">Email</label>
+	<input type="email" name="email" id="email" value="example@g.com" readonly>
+</div>
+<div id="pass-container" class="form-elm">
+	<label for="pass">Password</label>
+	<input type="password" name="pass" id="pass" required>
+</div>
+<div id="sum-container" class="form-elm">
+<label for="IntroductoryText">Introductorytext</label>
+<textarea name="IntroductoryText" id="IntroductoryText" placeholder="Enter text here"></textarea>
+</div>
+<div id="st-container" class="form-elm">
+	<label for="date">Date of Birth</label>
+	<input type="date" name="date" id="date"><br>
+
+	<label for="ur">Website:</label>
+	<input type="url" name="ur" id="ur"><br>
+	<label for="phone">Mobile Number:</label>
+	<input type="tel" name="phone" id="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+</div>
+
 </body>
 </html>
