@@ -13,40 +13,130 @@
   background-color: yellow; 
 }
 </style>
+<style> 
+#myDIV {
+  
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
+</style>
+
+<style> 
+#myRO {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+   transition-timing-function: linear;
+    animation-iteration-count: 5;
+  animation-duration: 0.5s
+
+}
+
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
+</style>
 </head>
 <body>
 	<h1>LIB2024- QA</h1>
-	<div>1. <b>Qus:</b>What are the three components of Web?
-	</div>
-	<div><b>Ans: </b>HTML, CSS, JavaScript</div>
-	<div>2. <b>Qus 2: </b>Define version control and give one example.</div>
-	<div><b>Ans: </b>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Ex: Github</div>
-	<div>3. <b>Qus: </b>What tag is used to create the title of a web page? Give an example.</div>
-	<div><b>Ans: </b>&lt;h&gt;. Ex: <h4>Title</h4></div>
-	<div>4.<b>Qus: </b>What tag is used to create a paragraph in html? Give an example. &lt;p&gt; <p>this is a paragraph</p></div>
-	<div>5. <b>Qus: </b>Identify the odd one from these tags: &lt;span&gt;, &lt;p&gt;, &lt;a&gt;, &lt;i&gt;  and state the reason?</div>
-	<div><b>Ans: </b>The &lt;p&gt; is the odd tag. It is a block-level element that starts on a new line and the rest of the tags are inline elements</div>
-	<div>6. <b>Qus: </b>What are the tags required to create a navigation list in HTML? </div>
-	<div><b>Ans: </b>&lt;li&gt;, &lt;ul&gt;, &lt;a&gt;</div>
-	<div>7. <b>Qus: </b>What element is used to create images? Name its attributes.</div>
-	<div><b>Ans: &lt;img&gt; Attributes: src and alt</b></div>
-	<div>8. <b>Qus: Identify the odd one from these tags: &lt;table&gt;, &lt;tr&gt;, &lt;b&gt;, &lt;td&gt;  and state the reason</b></div>
-	<div><b>Ans: </b>The odd tag is &lt;b&gt;. It is the odd one because the rest of the tags are used to make a table and this odd tag is only used to make text bold.</div>
-	<div>9. <b>Qus: </b>Give an example of color picker input. </div>
-	<div><b>Ans: </b> &lt;input type="color"  value="#ff0000"&gt; </div>
-	<div>10. <b>Qus: </b>What is the use of name and value attributes? Give two examples </div>
-	<div><b>Ans: </b> Name defines the value tag. It identifies information on what the value tag will be. Value is the link. Ex: &lt;a href="url"&lt;/a&gt;, &lt;img src="img_girl.jpg"&gt;
-	</div>
-	<div>11. <b>Qus: </b>Give an example of inline style. </div>
-	<div><b>Ans:</b><p style="color:red;">This is a paragraph.</p></div>
-	<div>12. <b>Qus: </b>How would you link an external style sheet? Give example. </div>
-	<p><b>Ans: </b>External styles are defined within the &lt;link&gt; element, inside the &lt;head&gt; section of an HTML page. An external style sheet can be written in any text editor, and must be saved with a .css extension.
+			<ol type="1"><li><b>Qus:</b>What are the three components of Web?</li><br>
+	
+	<div><b>Ans: </b>HTML, CSS, JavaScript</div><br>
 
-The external .css file should not contain any HTML tags. Ex: &lt;head&gt;
-&lt;link rel="stylesheet" href="mystyle.css"&gt;
-&lt;/head&gt;</p>
-<div>13. <b>Qus: Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px. </b></div>
-<div><b>Ans: </b> <span class="a">Block</span> <span class="a">Block</span> </div><br><br><br><br><br>
-<div>14. <b>Qus: </b>Create CSS keyframes block called "spin" that rotates an element. </div>
-</body>
+			<li><b>Qus:</b>Define version control and give one example.</li><br>
+
+	<div><b>Ans: </b>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Ex: Github</div><br>
+
+			<li><b>Qus: </b>What tag is used to create the title of a web page? Give an example.</li><br>
+
+	<div><b>Ans: </b>&lt;h&gt;. Ex: <h4>Title</h4></div><br>
+
+			<li><b>Qus: </b>What tag is used to create a paragraph in html? Give an example. &lt;p&gt;</li> <br>
+
+	<div><b>Ans: </b></div><p>this is a paragraph</p></div><br>
+
+			<li><b>Qus: </b>Identify the odd one from these tags: &lt;span&gt;, &lt;p&gt;, &lt;a&gt;, &lt;i&gt;  and state the reason?</li><br>
+
+	<div><b>Ans: </b>The &lt;p&gt; is the odd tag. It is a block-level element that starts on a new line and the rest of the tags are inline elements</div><br>
+
+			<li><b>Qus: </b>What are the tags required to create a navigation list in HTML? </li><br>
+
+	<div><b>Ans: </b>&lt;li&gt;, &lt;ul&gt;, &lt;a&gt;</div><br>
+
+			<li><b>Qus: </b>What element is used to create images? Name its attributes.</li><br>
+
+	<div><b>Ans: &lt;img&gt; Attributes: src and alt</b></div><br>
+
+			<li><b>Qus: Identify the odd one from these tags: &lt;table&gt;, &lt;tr&gt;, &lt;b&gt;, &lt;td&gt;  and state the reason</b></li><br>
+
+	<div><b>Ans: </b>The odd tag is &lt;b&gt;. It is the odd one because the rest of the tags are used to make a table and this odd tag is only used to make text bold.</div><br>
+
+			<li><b>Qus: </b>Give an example of color picker input. </li><br>
+
+	<div><b>Ans: </b> &lt;input type="color"  value="#ff0000"&gt; </div><br>
+
+			<li><b>Qus: </b>What is the use of name and value attributes? Give two examples </li><br>
+
+	<div><b>Ans: </b> Name defines the value tag. It identifies information on what the value tag will be. Value is the link. Ex: &lt;a href="url"&lt;/a&gt;, &lt;img src="img_girl.jpg"&gt;
+	</div><br>
+
+			<li><b>Qus: </b>Give an example of inline style. </li><br>
+
+	<div><b>Ans:</b><p style="color:red;">This is a paragraph.</p></div><br>
+
+			<li>b>Qus: </b>How would you link an external style sheet? Give example. </li><br>
+
+	<p><b>Ans: </b>External styles are defined within the &lt;link&gt; element, inside the &lt;head&gt; section of an HTML page. An external style sheet can be written in any text editor, and must be saved with a .css extension.The external .css file should not contain any HTML tags. Ex: &lt;head&gt;
+	&lt;link rel="stylesheet" href="mystyle.css"&gt;
+	&lt;/head&gt;</p><br>
+
+
+		<li><b>Qus: </b>Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px. </li><br>
+
+<div><b>Ans:</b> </div> 
+<span class="a">Block</span> <span class="a">Block</span><br> 
+		<li><b>Qus: </b>Create CSS keyframes block called "spin" that rotates an element. </li><br>
+
+<div><b>Ans:</b></div>
+<div id="myDIV">
+  <h1>spin</h1>
+</div><br>
+
+		<li><b></b>Create CSS animation block to rotate an element that has the following properties :class "rotate-me"It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"</li><br>
+
+<div><b>Ans: </b></div>
+<div id="myRO">
+	<h1>spin</h1>
+</div><br>
+
+		<li><b>Qus: </b>How would you include create an alert with string "I love JavaScript" using JavaScript?</li><br>
+
+<div><b>Ans: </b><button onclick="alert('I love JavaScript')">Try it</button></div><br>
+
+		<li><b>Qus: </b>How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?</li><br>
+
+<div><b>Ans: </b> you would enter a script tag and within</div><br>
+
+		<li><b>Qus: </b> How would you select all elements with class "my-class" using Javascript and Jquery? </li><br>
+
+<div><b>Ans: </b>To find elements with a specific class, write a period character, followed by the name of the class:Ex: </div><br>
+
+		<li><b>Qus: </b>Give an example of input field that takes phone number with format "123-456-7890"?</li><br>
+
+<div><b>Ans: </b>&lt;input type="number"&gt;</div><br>
+
+		<li><b>Qus: </b>Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason. </li><br>
+
+<div><b>Ans:</b>I enjoyed HTML the best because it was simple and did not overwhelm me. I thought i was exciting to make basic tables and checklists </div><
+</body>		
 </html>
