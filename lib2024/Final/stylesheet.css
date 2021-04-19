@@ -108,6 +108,9 @@ table style, th, td{
 border: 1px solid black;
   border-collapse: collapse;
 }
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
 
 footer {
   background-color: #777;
