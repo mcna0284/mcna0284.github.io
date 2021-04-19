@@ -83,10 +83,11 @@ li{
 }
 a {
 	display: block;
+	color: black;
 	text-align: center;
 	padding: 10px;
-	color: black;
-	width: 20%;
+	text-decoration: none;
+
 }
 
 main-content{
