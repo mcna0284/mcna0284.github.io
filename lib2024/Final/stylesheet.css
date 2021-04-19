@@ -71,7 +71,6 @@ header {
 .desktop-nav{
 	float: left;
 	width: calc(100%-100px);
-	display: none;
 	max-width: 600px;
 	background: #757575
 }
