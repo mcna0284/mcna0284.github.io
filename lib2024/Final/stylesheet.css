@@ -66,13 +66,14 @@ header {
 	float: left;
 	width: 100px
 	box-sizing: border-box;
-	
+	padding: 10px
 }
 .desktop-nav{
 	float: left;
 	width: calc(100%-100px);
 	display: none;
 	max-width: 600px;
+	background: #757575
 }
 .desktop-nav ul{
 	width: 100%;
@@ -88,4 +89,18 @@ header {
 	box-sizing: border-box;
 	width: 100%
 	padding: 10px;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
