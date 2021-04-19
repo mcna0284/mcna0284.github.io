@@ -111,6 +111,9 @@ border: 1px solid black;
 #t01 tr:nth-child(even) {
   background-color: #eee;
 }
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
 
 footer {
   background-color: #777;
