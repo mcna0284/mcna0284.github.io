@@ -90,13 +90,14 @@ header {
 	width: 100%
 	padding: 10px;
 }
+main-content{
+	width: 70%
+	float: left;
+}
 aside {
   width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
   float: right;
-  font-style: italic;
-  background-color: lightgray;
+  
 }
 footer {
   background-color: #777;
