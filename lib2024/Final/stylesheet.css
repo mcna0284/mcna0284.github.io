@@ -70,18 +70,20 @@ header {
 }
 .desktop-nav{
 	float: left;
+	padding: 10px;
 	width: calc(100%-100px);
 	max-width: 600px;
 	background: #757575
 }
 .desktop-nav ul{
 	width: 100%;
+	background: #757575
 }
 .desktop-nav li{
 	box-sizing: border-box;
 	width: 20%;
 	float: left;
-	background: #757575
+	
 }
 .main-nav a {
 	display: block;
