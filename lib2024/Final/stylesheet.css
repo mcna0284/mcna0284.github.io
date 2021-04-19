@@ -59,9 +59,7 @@ Header Text;
 .col-main, .col-footer, img {
 	width: 100%;
 }
-header {
-	background: #757575;
-}
+header 
 .logo{
 	float: left;
 	width: 100px
@@ -86,7 +84,7 @@ li{
 a {
 	display: block;
 	text-align: center;
-	padding: 14px;
+	padding: 10px;
 	color: black;
 	width: 20%;
 }
