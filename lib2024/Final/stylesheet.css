@@ -89,11 +89,14 @@ header {
 	width: 100%
 	padding: 10px;
 }
+
 main-content{
 	width: 70%
 	float: left;
 }
 aside {
+	margin: 0px 0px 15px 20px;
+	margin-left: 15px;
   width: 30%;
   float: right;
   
