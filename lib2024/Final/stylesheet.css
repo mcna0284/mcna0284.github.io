@@ -76,20 +76,24 @@ header {
 	background: #757575
 }
 .desktop-nav ul{
-	width: 100%;
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+	overflow: hidden;
 	background: #757575
 }
 .desktop-nav li{
-	box-sizing: border-box;
-	width: 20%;
+	
+	
 	float: left;
 	
 }
 .main-nav a {
 	display: block;
-	box-sizing: border-box;
-	width: 100%
-	padding: 10px;
+	text-align: center;
+	padding: 14px;
+	color: black;
+	width: 20%;
 }
 
 main-content{
