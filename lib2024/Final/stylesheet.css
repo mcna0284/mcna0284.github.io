@@ -103,6 +103,11 @@ aside {
   float: right;
   
 }
+table, th, td{
+border: 1px solid black;
+  border-collapse: collapse;
+}
+}
 footer {
   background-color: #777;
   padding: 10px;
