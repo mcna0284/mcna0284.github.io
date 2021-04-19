@@ -75,20 +75,20 @@ header {
 	max-width: 600px;
 	background: #757575
 }
-.desktop-nav ul{
+ul{
 	 list-style-type: none;
   margin: 0;
   padding: 0;
 	overflow: hidden;
 	background: #757575
 }
-.desktop-nav li{
+li{
 	
 	
 	float: left;
 	
 }
-.main-nav a {
+a {
 	display: block;
 	text-align: center;
 	padding: 14px;
