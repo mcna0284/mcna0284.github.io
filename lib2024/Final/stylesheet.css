@@ -62,8 +62,9 @@ Header Text;
 header 
 .logo{
 	float: left;
-	width: 100px
-	box-sizing: border-box;
+	width: 100px;
+	box-sizing: ;
+	 border-box;
 	padding: 10px
 }
 nav-class {
@@ -93,7 +94,7 @@ a {
 }
 
 main-content{
-	width: 70%
+	width: 70%;
 	float: left;
 }
 aside {
@@ -103,11 +104,11 @@ aside {
   float: right;
   
 }
-table, th, td{
+table style, th, td{
 border: 1px solid black;
   border-collapse: collapse;
 }
-}
+
 footer {
   background-color: #777;
   padding: 10px;
