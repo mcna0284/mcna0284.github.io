@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-image:<img src="img/bubble.jpg" alt="bubble"
+	background-image: url('img_bubble.jpg') 
 }
 ol, ul {
 	list-style: none;
@@ -104,6 +104,10 @@ aside {
   width: 30%;
   float: right;
   
+}
+p{
+	width: 70%;
+	height: 100px;
 }
 table style, th, td{
 border: 1px solid black;
