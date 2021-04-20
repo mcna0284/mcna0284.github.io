@@ -118,10 +118,12 @@ th, td, tr {
 	padding: 20px;
 	text-align: center;
 }
+input{
+margin-left: 15px;
+}
 
 footer {
   background-color: #777;
   padding: 10px;
-  text-align: center;
   color: white;
 }
