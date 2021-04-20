@@ -115,11 +115,14 @@ table tr:nth-child(odd) {
  background-color: #fff;
 }
 th, td, tr {
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 }
-input{
-margin-left: 15px;
+label {
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 150px
+	text-align: right;
 }
 
 footer {
