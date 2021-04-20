@@ -65,7 +65,7 @@ header
 	width: 100px;
 	box-sizing: ;
 	 border-box;
-	padding: 10px
+	padding: 20px
 }
 nav-class {
 	background: #72a9ae
@@ -122,7 +122,7 @@ label {
 	margin-bottom: 10px;
 	display: inline-block;
 	width: 150px
-	text-align: right;
+	text-align: left;
 }
 
 footer {
